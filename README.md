@@ -48,8 +48,6 @@ import templateFn from "./template.hmpl";
 const elementObj = templateFn();
 ```
 
----
-
 ## Plugin Options
 
 The plugin supports various configuration options. Here are the most commonly used ones:
@@ -73,13 +71,9 @@ hmplPlugin({
 
 The full list of options is described in the [HMPL language specification](https://spec.hmpl-lang.dev/#options).
 
----
-
 ## Changelog
 
 You can view the changelog for this plugin on the [GitHub releases page](https://github.com/hmpl-language/vite-plugin-hmpl/releases).
-
----
 
 ## License
 
