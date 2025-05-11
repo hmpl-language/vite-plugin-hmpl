@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-hmpl",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Plugin for files with .hmpl extension for Vite",
   "main": "index.js",
   "module": "index.js",
