@@ -1,0 +1,47 @@
+{
+  "name": "vite-plugin-hmpl",
+  "version": "0.0.1",
+  "description": "Plugin for files with .hmpl extension for Vite",
+  "main": "index.js",
+  "module": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./index.js"
+    }
+  },
+  "scripts": {},
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hmpl-language/vite-plugin-hmpl"
+  },
+  "bugs": {
+    "url": "https://github.com/hmpl-language/vite-plugin-hmpl/issues"
+  },
+  "homepage": "https://hmpl-lang.dev/vite-plugin.html",
+  "keywords": [
+    "hmpl",
+    "hmpl-js",
+    "plugin",
+    "vite",
+    "vite-plugin"
+  ],
+  "author": "Anton Maklakov",
+  "license": "MIT",
+  "engines": {
+    "node": ">=10.12.0"
+  },
+  "dependencies": {
+    "@rollup/pluginutils": "^5.0.0",
+    "schema-utils": "^4.0.0",
+    "hmpl-js": ">=1.0.4"
+  },
+  "peerDependencies": {
+    "vite": "^4.0.0 || ^5.0.0"
+  }
+}
