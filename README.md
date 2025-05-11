@@ -75,6 +75,10 @@ The full list of options is described in the [HMPL language specification](https
 
 You can view the changelog for this plugin on the [GitHub releases page](https://github.com/hmpl-language/vite-plugin-hmpl/releases).
 
+## Contributors
+
+This project was created in collaboration with [Saptarshi Mula](https://github.com/toyaAoi). Many thanks to him!
+
 ## License
 
 This project is licensed under the [MIT License](https://github.com/hmpl-language/vite-plugin-hmpl/blob/main/LICENSE).

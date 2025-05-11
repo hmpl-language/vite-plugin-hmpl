@@ -72,9 +72,8 @@ export default function hmplPlugin(userOptions = {}) {
       const modulePath = path.posix.join("hmpl-js", "dist", "hmpl.runtime");
       const stringOptions = JSON.stringify(hmplOptions);
       const template = JSON.stringify(code);
-
       const transformedCode = `
-        import hmpl from '${modulePath}';
+        import * as hmpl from '${modulePath}';
         const template = hmpl.compile(${template}, ${stringOptions});
         export default template;
       `;
